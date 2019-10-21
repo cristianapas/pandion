@@ -467,13 +467,13 @@ function recv_search_start ( iq )
 	}
 
 	/* Set up the default header information
-	 */
+	
 	if ( external.globals( 'ClientServices' ).Services.Exists( iq.From ) )
 		document.getElementById( 'page3_title' ).innerText = external.globals( 'ClientServices' ).Services.Items( iq.From ).Name;
 	else
 		document.getElementById( 'page3_title' ).innerText = external.globals( 'Translator' ).Translate( 'adduser', 'search_title' );
 	document.getElementById( 'page3_subtitle' ).innerText = external.globals( 'Translator' ).Translate( 'adduser', 'search_tagline' );
-
+	*/
 	var form = document.getElementById( 'page3_table' );
 	document.getElementById( 'page1c' ).style.display = 'none';
 	document.getElementById( 'page3' ).style.display = 'block';
