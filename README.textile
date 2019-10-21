@@ -2,7 +2,7 @@ h1. Pandion
 
 ??An easy to use instant messenger based on the open standard XMPP.??
 
-??Este es un intento de migrar el Pandion 2.6.114 a CEF, cualquier colaboración sobre como migrar de MSHTML.dll a Chromium Embedded Framework sera bienvenida.??
+??Este es un intento de migrar el Pandion 2.6.114 a VS2019 usando CEF, cualquier colaboración sobre como migrar de MSHTML.dll a Chromium Embedded Framework sera bienvenida.??
 
 
 h2. Development Resources
